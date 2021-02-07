@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const notes = require('../routes/noteRoutes.js');
-const projects = require('../routes/projectRouts.js');
+const projects = require('../routes/projectRoutes.js');
 
 const server = express();
 
